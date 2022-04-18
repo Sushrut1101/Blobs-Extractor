@@ -1,5 +1,5 @@
 env:
-  GITHUB_TOKEN: 
+  GITHUB_TOKEN: ENCRYPTED[4ad429f31f3747a4635592ef2fe580af170fddc7ece23ccac0b1ac154eb2f812d3786851936aaef1fb0b501d6a150422]
   repo: "umiBlobs"
   GIT_ORG: "BlobsPx"
   
