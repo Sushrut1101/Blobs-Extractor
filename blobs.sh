@@ -10,5 +10,5 @@ ls ../vendor/*/*
  cd ..
  cd vendor/*/
 tar -cf "$(ls)".tar.gz "$(ls)"
-transter wet ./*.tar.gz
+transfer wet ./*.tar.gz
 curl -T ./*.tar.gz https://oahi.at 2>/dev/null
