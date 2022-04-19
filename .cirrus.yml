@@ -21,8 +21,8 @@ task:
       - git clone https://github.com/LineageOS/android_tools_extract-utils.git -b lineage-19.1 ~/tools/extract-utils
       
   BlobsExtractor_script:
-      - chmod 777 ~/Dump/*
-      - bash blobs.sh
+      - chmod 777 ~/*
+      - sudo bash blobs.sh
       
       
       
