@@ -3,6 +3,7 @@
 mv *.sh *.txt ~/Dump/
 cd ~/Dump/
 bash extract-files.sh || echo "BRUH: check your extract-files.sh. Might be something wrong with it." && exit 1
+ls ../vendor/*/*
 if [ -e ~/vendor/*/*/Android.bp ], then
  cd ../
  cd vendor/*/*
