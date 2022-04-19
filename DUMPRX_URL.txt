@@ -1,1 +1,1 @@
-https://gitlab.com/Android-Dumps/xiaomi/umi.git
+https://gitlab.com/Android-Dumps/redmi/dandelion.git
