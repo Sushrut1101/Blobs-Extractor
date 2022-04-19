@@ -4,9 +4,10 @@ mv *.sh *.txt ~/Dump/
 cd ~/Dump
 chmod 777 .
 chmod 777 /root/Dump/*.sh
-bash extract-files.sh || echo "BRUH: check your extract-files.sh. Might be something wrong with it." && kill %1
+bash extract-files.sh
 ls ../vendor/*/*
 if [ -e ~/vendor/*/*/Android.bp ], then
+ echo "Blobs extraction done"
  cd ../
  cd vendor/*/*
  git init && curl -s -X POST -H "Authorization: token ${GITHUB_TOKEN}" -d '{ "name": "'"${repo}"'"' "https://api.github.com/orgs/${GIT_ORG}/repos" } >/dev/null 2>&1
