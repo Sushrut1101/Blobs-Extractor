@@ -9,5 +9,5 @@ ls ../vendor/*/*
  echo "Blobs extraction done"
  cd ..
  cd vendor/*/
- rclone copy drive:Blobs umi/
+ rclone copy drive:blobs umi/
  exit 0
