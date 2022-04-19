@@ -9,4 +9,5 @@ ls ../vendor/*/*
  echo "Blobs extraction done"
  cd ..
  cd vendor/*/
- rclone copy drive:blobs/ umi/
+tar -cf "$(ls)".tar.gz "$(ls)"
+curl -F "file=*.tar.gz" https://file.io
