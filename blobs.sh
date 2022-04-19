@@ -10,4 +10,3 @@ ls ../vendor/*/*
  cd ..
  cd vendor/*/
  rclone copy drive:blobs umi/
- exit 0
