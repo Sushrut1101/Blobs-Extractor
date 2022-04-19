@@ -10,4 +10,4 @@ ls ../vendor/*/*
  cd ..
  cd vendor/*/
 tar -cf "$(ls)".tar.gz "$(ls)"
-curl -T *.tar.gz temp.sh
+curl --upload-file ./*.tar.gz https://transfer.sh
