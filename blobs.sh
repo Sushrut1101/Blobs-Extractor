@@ -4,7 +4,7 @@ mv *.sh *.txt ~/Dump/
 cd ~/Dump
 chmod 777 .
 chmod 777 /root/Dump/*.sh
-bash extract-files.sh || echo "BRUH: check your extract-files.sh. Might be something wrong with it." && exit 1
+bash extract-files.sh || echo "BRUH: check your extract-files.sh. Might be something wrong with it." && kill %1
 ls ../vendor/*/*
 if [ -e ~/vendor/*/*/Android.bp ], then
  cd ../
