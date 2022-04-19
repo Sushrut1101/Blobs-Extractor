@@ -58,4 +58,4 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" . "${KANG}" --section "${SECTION}"
 
-sudo "${MY_DIR}/setup-makefiles.sh"
+sudo bash "${MY_DIR}/setup-makefiles.sh"
