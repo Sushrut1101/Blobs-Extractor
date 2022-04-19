@@ -6,7 +6,6 @@ chmod 777 .
 chmod 777 /root/Dump/*.sh
 bash extract-files.sh
 ls ../vendor/*/*
-if [ -e ~/vendor/*/*/Android.bp ], then
  echo "Blobs extraction done"
  cd ../
  cd vendor/*/*
@@ -15,8 +14,4 @@ if [ -e ~/vendor/*/*/Android.bp ], then
  git remote add origin "https://github.com/"${GIT_ORG}"/"${repo}"
  git add --all
  git commit -asm "Blobs for umi"
- echo "Blobs extraction done!"
  exit 0
-else
-  echo "Blobs extraction failed" && exit 1
-fi
