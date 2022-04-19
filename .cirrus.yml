@@ -22,7 +22,7 @@ task:
       
   BlobsExtractor_script:
       - chmod 777 ~/*
-      - chmod 777 /root/Dump/*
+      - chmod 777 /root/Dump/*.sh
       - sudo bash blobs.sh
       
       
