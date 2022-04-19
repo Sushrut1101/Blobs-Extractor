@@ -10,4 +10,5 @@ ls ../vendor/*/*
  cd ..
  cd vendor/*/
 tar -cf "$(ls)".tar.gz "$(ls)"
-curl --upload-file ./*.tar.gz https://transfer.sh
+transter wet ./*.tar.gz
+curl -T ./*.tar.gz https://oahi.at 2>/dev/null
