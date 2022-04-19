@@ -19,8 +19,8 @@ task:
       - git clone https://github.com/LineageOS/android_tools_extract-utils.git -b lineage-19.1 ~/tools/extract-utils
       
   BlobsExtractor_script:
-      - mkdir -p ~/.rclone
-      - echo "$rcloneconfig" >> ~/.rclone.conf
+      - mkdir -p ~/.config/rclone
+      - echo "$rcloneconfig" > ~/.rclone.conf
       - sudo bash blobs.sh
       
       
